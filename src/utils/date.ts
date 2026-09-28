@@ -20,7 +20,7 @@ if (loader) {
   dayjs.locale(lang.toLowerCase());
 }
 
-export function formatDate(d: string | Date, format: string = "YYYY.MM.DD") {
+export function formatDate(d: string | Date, format: string = "DD/MM/YYYY") {
   const date = dayjs(d);
   return date.format(format);
 }

@@ -9,30 +9,29 @@ const artalkEnabled =
 const site = {
   // --- Site Metadata ---
   meta: {
-    title: "Breeze",
-    description: "A minimal Astro theme for personal websites",
-    author: "Your Name",
+    title: "Kristian Papadakis",
+    description:
+      "I built an agent OS that runs a real B2B company end to end. One human, an AI team, working it out in public. Not a portfolio. Not for hire.",
+    author: "Kristian Papadakis",
     logo: "/logo.svg",
     ogImage: "/og-image.png",
     // HTML lang attribute, affects page language and date formatting
     // Options: "zh-CN", "en", "ja", etc.
-    lang: "en",
+    lang: "en-GB",
   },
 
   // --- Navigation ---
   // subtitle: decorative label shown below the name (uppercase, small text)
   navigation: [
     { name: "Home", subtitle: "Index", href: "/" },
-    { name: "Writing", subtitle: "Blog", href: "/posts" },
-    { name: "Projects", subtitle: "Works", href: "/projects" },
-    { name: "Friends", subtitle: "Links", href: "/friends" },
+    { name: "Articles", subtitle: "Writing", href: "/posts" },
     { name: "About", subtitle: "Me", href: "/about" },
   ],
 
   // --- Social Links ---
   social: [
-    { name: "GitHub", href: "https://github.com/your-username", icon: "mdi:github" },
-    { name: "Email", href: "mailto:hello@example.com", icon: "mdi:email" },
+    { name: "LinkedIn", href: "https://www.linkedin.com/in/kristianpapadakis/", icon: "mdi:linkedin" },
+    { name: "Email", href: "mailto:kristian@pressonetwork.com", icon: "mdi:email" },
   ],
 
   friendCard: {
@@ -44,19 +43,21 @@ const site = {
 
   // --- Homepage Hero ---
   hero: {
-    greeting: "👋 Hello, I'm Breeze",
+    greeting: "Hello, I'm Kristian",
+    // Headline shown large below the greeting
+    title: "I run a company with a team I never hired",
     // Supports HTML. Use <span class="font-medium text-foreground underline decoration-primary/30"> to highlight keywords
     description:
-      'A minimal personal website theme built with <span class="font-medium text-foreground underline decoration-primary/30">Astro</span> and <span class="font-medium text-foreground underline decoration-primary/30">Tailwind CSS</span>.',
+      'I build companies the way people now build software: by orchestrating AI agents instead of hiring a team. I built an agent OS from scratch, and it runs a real business end to end - real product, real customers, real billing, one human pointing the way. This is where I work it out in public. <span class="font-medium text-foreground underline decoration-primary/30">Not a portfolio. Not for hire.</span>',
     cards: [
-      { icon: "mdi:explore", label: "Status", value: "Building something cool" },
-      { icon: "mdi:location", label: "Location", value: "Earth" },
+      { icon: "mdi:robot-outline", label: "Status", value: "Running a B2B company with an AI agent team" },
+      { icon: "mdi:map-marker", label: "Location", value: "Reading, UK" },
     ],
   },
 
   // --- Footer ---
   footer: {
-    copyright: "© 2025 Breeze",
+    copyright: "© 2026 Kristian Papadakis",
     builtWith: "Built with Astro",
   },
 
